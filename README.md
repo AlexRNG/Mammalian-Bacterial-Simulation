@@ -12,5 +12,7 @@ The product I was asked to deliver a rudamentary system that simulates an expone
 
  - The simulation was to involve some randomness in particle movement as to replicate brownian motion at such small scales, to try and replicate this I chose to give each cell a random position and velocity on start up. 
 
-### How it was Made
+### How it Works
 I created this program with the help of unity as it gave me the tools necessary to create an agent based simulation like this. download the docx of the documentation to see an in depth breakdown
+
+The large circular cells are mammalian cells, and the small pod shaped cells are bacteria. When a bacteria comes into contact with a mammalian cell it will infect it, depending on the infection percentage chosen in the previous scene the mammalian cell will either survive (turn green) or die and release more bacteria (turn red and fade away) 
